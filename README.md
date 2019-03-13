@@ -5,7 +5,7 @@ download link - https://drive.google.com/open?id=1IwbwSi_33Ffn4sHMmTvgAL-gULCfbj
 * some prerequisites : 
 
     * Python3 should be installed
-    * selenium should be installed `pip install selenium`
+    * selenium should be installed -> `pip install selenium`
     * google chrome should be installed
     
 * Run Chlms.py
