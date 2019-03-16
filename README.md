@@ -1,6 +1,6 @@
 # AutoLMS
 
-download link - https://drive.google.com/open?id=1IwbwSi_33Ffn4sHMmTvgAL-gULCfbjrX
+download link - https://drive.google.com/open?id=1G9fNrRulevH3a6pc2DgFoccl4wucYtCs
 
 * some prerequisites : 
 
