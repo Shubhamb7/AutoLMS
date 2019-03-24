@@ -1,6 +1,5 @@
 import os
 import time
-from tqdm import tqdm
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
@@ -45,9 +44,10 @@ for i in range(0,6):
     subj_ids.append(subid)
     num+=1
 
-print('\nin progess...\n')
+print('\n',subj_ids)
+print('\n\nin progess...\n')
 
-for i in tqdm(range(0,6)):
+for i in range(0,6):
     driver.get("http://mydy.dypatil.edu/rait/course/customview.php?id="+subj_ids[i])
     time.sleep(2)
     subj_links = driver.find_elements_by_class_name('pending')
