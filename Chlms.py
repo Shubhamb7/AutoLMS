@@ -34,7 +34,7 @@ for link in links:
     url = link.get_attribute('href')
     url_list.append(url)
 
-num=33
+num=35
 
 for i in range(0,6):
     temp = url_list[num]
