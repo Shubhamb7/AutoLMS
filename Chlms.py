@@ -35,7 +35,7 @@ for link in links:
     url = link.get_attribute('href')
     url_list.append(url)
 
-num=35
+num=33
 
 for i in range(0,6):
     temp = url_list[num]
@@ -79,3 +79,5 @@ for link in links:
 
 driver.get(url_list[15])
 driver.close()
+
+print('Done!! Thankyou for waiting :)')
