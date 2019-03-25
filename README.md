@@ -1,10 +1,10 @@
 # AutoLMS
 
-download link - https://drive.google.com/open?id=1DZxo_fzp2wtIVTnjDYGh0iy8ror6lasO
+download link - https://drive.google.com/open?id=1nlvATwjYGXbofDjBI5CH00vfs9lhsvUY
 
 * google chrome should be installed
 * download the folder
-  * run the AutoLMS executable file
+  * run the ` lms ` executable file
 * enter username and password when asked
 
 **NOTE :** do not delete the chromedriver
