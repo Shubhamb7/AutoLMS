@@ -31,18 +31,16 @@ time.sleep(3)
 links = driver.find_elements_by_tag_name('a')
 
 for link in links:
-    url = link.get_attribute('href')
-    url_list.append(url)
-
-num=35
+    url = str(link.get_attribute('href'))
+    if 'course/view' in url:
+        url_list.append(url)
 
 for i in range(0,6):
-    temp = url_list[num]
+    temp = url_list[i]
     templist = list(temp)
     finallist = templist[48:]
     subid = ''.join(finallist) 
     subj_ids.append(subid)
-    num+=1
 
 print('\n',subj_ids)
 print('\n\nin progess...\n')
@@ -72,12 +70,14 @@ setting = driver.find_element_by_class_name('usermenu')
 setting.click()
 
 links = driver.find_elements_by_tag_name('a')
-
+url_list = []
 for link in links:
-    url = link.get_attribute('href')
-    url_list.append(url)
+    url = str(link.get_attribute('href'))
+    if 'logout.php' in url:
+        url_list.append(url)
 
-driver.get(url_list[15])
+driver.get(url_list[0])
+time.sleep(1)
 driver.close()
 
-print('Done!! Thankyou for waiting :)')
+print('Done !! Thankyou for waiting :)')
